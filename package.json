@@ -2,7 +2,7 @@
   "name": "mdb-portfolio",
   "version": "1.0.0",
   "description": "Personal portfolio page",
-  "main": "index.js",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,5 +11,12 @@
     "url": "git+https://github.com/mdb255/mdb-portfolio.git"
   },
   "author": "Mike Baldwin",
-  "license": "ISC"
+  "license": "ISC",
+
+  "devDependencies": {
+    "jquery": "1.9.1",
+    "bootstrap-sass": "3.3.6",
+    "gsap": "1.18.5",
+    "scrollmagic": "2.0.5"
+  }
 }
