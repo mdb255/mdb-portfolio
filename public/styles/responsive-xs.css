@@ -1,0 +1,39 @@
+@media screen and (min-width: 480px) {
+  .splash-header-r {
+    background-image: url("../images/city-xs.jpg");
+    height: 650px; }
+
+  .cloud-logo-r {
+    top: 170px;
+    right: 330px;
+    transform: scale(1.5); }
+
+  .cloud-nav-r {
+    height: 56px;
+    width: 88px; }
+
+  .cloud1-r {
+    top: 70px;
+    right: 520px; }
+
+  .cloud2-r {
+    top: 30px;
+    right: 330px; }
+
+  .cloud3-r {
+    top: 120px;
+    right: 190px; }
+
+  .subsection-sm {
+    margin: 2rem 0; }
+
+  .crossfade img {
+    width: 300px; }
+
+  .subsection-header {
+    min-height: 76px; }
+
+  .mb-none-sm {
+    margin-bottom: 0; } }
+
+/*# sourceMappingURL=responsive-xxs.css.map */

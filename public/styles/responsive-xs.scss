@@ -1,0 +1,49 @@
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss";
+
+@media screen and (min-width: $screen-xs-min) {
+
+  html {
+    font-size: 10px;
+  }
+
+  body {
+    font-size: 12px;
+  }
+
+  p {
+    font-size: 1.1em;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  .splash-header-r {
+    background-image: url("../images/city-xs.jpg");
+    height: 500px;
+  }
+
+  .cloud-logo-r {
+    top: 100px;
+    right: 170px;
+  }
+
+  .cloud1-r {
+    top: 60px;
+    right: 320px;
+  }
+
+  .cloud2-r {
+    top: 20px;
+    right: 230px;
+  }
+
+  .cloud3-r {
+    top: 80px;
+    right: 120px;
+  }
+
+  .crossfade img {
+    width: 320px;
+  }
+}
