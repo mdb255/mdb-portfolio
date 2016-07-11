@@ -12,6 +12,15 @@ body {
 
 p {
   font-size: 1.4em;
+  font-family: "Open Sans", "Helvetica Neue", "Segoe UI", sans-serif;
+
+  a {
+    color: #59a2e0;
+
+    &:hover {
+      color: #3b84c5;
+    }
+  }
 }
 
 h1, h2, h3 {
@@ -22,12 +31,16 @@ h1 {
   font-size: 2.7em;
 }
 
+h2 {
+  font-size: 2.2em;
+}
+
 h3 {
   font-size: 1.8em;
 }
 
-p {
-  font-family: "Open Sans", "Helvetica Neue", "Segoe UI", sans-serif;;
+h4 {
+  font-size: 1.5em;
 }
 
 
@@ -119,6 +132,11 @@ p {
   width: 120px;
 }
 
+ul.features {
+  list-style-position: inside;
+  padding-left: 0;
+}
+
 
 /*** Screenshots ***/
 
@@ -192,4 +210,8 @@ p {
 
 .mb-6 {
   margin-bottom: 6rem;
+}
+
+.mb-8 {
+  margin-bottom: 10rem;
 }
