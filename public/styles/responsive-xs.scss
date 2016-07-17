@@ -14,10 +14,6 @@
     font-size: 1.1em;
   }
 
-  h1 {
-    font-size: 3em;
-  }
-
   .splash-header-r {
     background-image: url("../images/city-xs.jpg");
     height: 500px;
@@ -45,5 +41,9 @@
 
   .crossfade img {
     width: 320px;
+  }
+
+  .subsection-header {
+    min-height: 76px;
   }
 }

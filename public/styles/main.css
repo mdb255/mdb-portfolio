@@ -19,13 +19,13 @@ h1, h2, h3 {
   margin: 0; }
 
 h1 {
-  font-size: 2.7em; }
+  font-size: 3em; }
 
 h2 {
   font-size: 2.2em; }
 
 h3 {
-  font-size: 1.8em; }
+  font-size: 1.7em; }
 
 h4 {
   font-size: 1.5em; }
@@ -36,6 +36,13 @@ h4 {
   background-position: right top;
   background-repeat: no-repeat;
   height: 380px; }
+
+.section-inverse {
+  background-color: #eee;
+  color: black; }
+
+.menu-appear-animation {
+  opacity: 0; }
 
 .cloud-logo-r {
   position: absolute;
@@ -65,6 +72,10 @@ h4 {
   opacity: 0.85;
   cursor: pointer; }
 
+.navbar-inverse .navbar-nav > li > a.cloud-link {
+  color: white;
+  font-family: "Suez One", "Helvetica Neue", sans-serif; }
+
 .cloud-link:hover {
   opacity: 1; }
 
@@ -74,7 +85,7 @@ h4 {
 
 .subsection-header {
   background: #568ABA;
-  margin: 2rem 3rem;
+  margin: 2rem 0;
   padding: 1rem;
   display: flex;
   display: -webkit-flex;
@@ -84,13 +95,12 @@ h4 {
   -webkit-justify-content: center; }
 
 .subsection {
-  border: 1px solid #333;
   margin: 2rem; }
 
 .contact-icons {
   padding: 1rem; }
   .contact-icons a {
-    padding: 1rem; }
+    margin: 1rem; }
   .contact-icons img {
     height: 48px;
     width: 48px; }
@@ -102,6 +112,15 @@ h4 {
 ul.features {
   list-style-position: inside;
   padding-left: 0; }
+
+.contact-caption {
+  min-height: 2rem;
+  opacity: 0;
+  transition: opacity 0.5s; }
+
+.contact-caption.opaque {
+  opacity: 1;
+  transition: opacity 0.5s; }
 
 /*** Screenshots ***/
 .ss-wedding {
@@ -119,10 +138,12 @@ ul.features {
 
 .hover-swap .show-on-hover {
   display: none; }
-.hover-swap:hover .show-on-hover {
-  display: inline-block; }
-.hover-swap:hover .show-baseline {
-  display: none; }
+.hover-swap:hover {
+  text-decoration: none; }
+  .hover-swap:hover .show-on-hover {
+    display: inline-block; }
+  .hover-swap:hover .show-baseline {
+    display: none; }
 
 .crossfade {
   text-align: center; }
@@ -139,6 +160,9 @@ ul.features {
     .crossfade .base-img:hover {
       opacity: 0; }
 
+.mt-3 {
+  margin-top: 2rem; }
+
 .mt-6 {
   margin-top: 6rem; }
 
@@ -153,6 +177,10 @@ ul.features {
 
 .mb-8 {
   margin-bottom: 10rem; }
+
+.pv-6 {
+  padding-top: 6rem;
+  padding-bottom: 6rem; }
 
 .floating {
   animation-name: floating;
@@ -186,9 +214,6 @@ ul.features {
   p {
     font-size: 1.1em; }
 
-  h1 {
-    font-size: 3em; }
-
   .splash-header-r {
     background-image: url("../images/city-xs.jpg");
     height: 500px; }
@@ -210,7 +235,10 @@ ul.features {
     right: 120px; }
 
   .crossfade img {
-    width: 320px; } }
+    width: 320px; }
+
+  .subsection-header {
+    min-height: 76px; } }
 @media screen and (min-width: 768px) {
   html {
     font-size: 11px; }
@@ -250,7 +278,7 @@ ul.features {
     margin: 2rem 0; }
 
   .crossfade img {
-    width: 300px; }
+    width: 330px; }
 
   .subsection-header {
     min-height: 76px; }
@@ -295,7 +323,7 @@ ul.features {
     min-height: 0; }
 
   .crossfade img {
-    width: 400px; } }
+    width: 430px; } }
 @media screen and (min-width: 1200px) {
   html {
     font-size: 12px; }
@@ -332,9 +360,9 @@ ul.features {
     right: 330px; }
 
   .crossfade img {
-    width: 450px; }
+    width: 510px; }
 
   .subsection-lg {
-    margin: 2rem; } }
+    margin: 3rem 0.5rem; } }
 
 /*# sourceMappingURL=main.css.map */

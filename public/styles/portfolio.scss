@@ -28,7 +28,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 2.7em;
+  font-size: 3em;
 }
 
 h2 {
@@ -36,7 +36,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.8em;
+  font-size: 1.7em;
 }
 
 h4 {
@@ -51,6 +51,15 @@ h4 {
   background-position: right top;
   background-repeat: no-repeat;
   height: 380px;
+}
+
+.section-inverse {
+  background-color: #eee;
+  color: black;
+}
+
+.menu-appear-animation {
+  opacity: 0;
 }
 
 .cloud-logo-r {
@@ -88,6 +97,11 @@ h4 {
   cursor: pointer;
 }
 
+.navbar-inverse .navbar-nav > li > a.cloud-link {
+  color: white;
+  font-family: "Suez One", "Helvetica Neue", sans-serif;
+}
+
 .cloud-link:hover {
   opacity: 1;
 }
@@ -99,7 +113,7 @@ h4 {
 
 .subsection-header {
   background: #568ABA; // #2C56AC;
-  margin: 2rem 3rem;
+  margin: 2rem 0;
   padding: 1rem;
   display: flex;
   display: -webkit-flex;
@@ -110,7 +124,6 @@ h4 {
 }
 
 .subsection {
-  border: 1px solid #333;
   margin: 2rem;
 }
 
@@ -118,7 +131,7 @@ h4 {
   padding: 1rem;
 
   a {
-    padding: 1rem;
+    margin: 1rem;
   }
 
   img {
@@ -137,6 +150,16 @@ ul.features {
   padding-left: 0;
 }
 
+.contact-caption {
+  min-height: 2rem;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.contact-caption.opaque {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
 
 /*** Screenshots ***/
 
@@ -164,6 +187,8 @@ ul.features {
   }
 
   &:hover {
+    text-decoration: none;
+
     .show-on-hover {
       display: inline-block;
     }
@@ -196,6 +221,10 @@ ul.features {
   }
 }
 
+.mt-3 {
+  margin-top: 2rem;
+}
+
 .mt-6 {
   margin-top: 6rem;
 }
@@ -214,4 +243,9 @@ ul.features {
 
 .mb-8 {
   margin-bottom: 10rem;
+}
+
+.pv-6 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
