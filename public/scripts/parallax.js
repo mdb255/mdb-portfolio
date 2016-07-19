@@ -27,6 +27,6 @@
       $(".clouds-disappear-animation").addClass("floating");
     })
     .setTween(menuTransitionTween)
-    .addIndicators({name: "cloudsDisappearTween"})
+    // .addIndicators({name: "cloudsDisappearTween"})
     .addTo(controller);
 })();
