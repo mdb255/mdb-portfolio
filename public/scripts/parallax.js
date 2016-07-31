@@ -3,6 +3,8 @@
  */
 
 (function () {
+  "use strict";
+  
   var menuTransitionTween = new TimelineMax()
     .to('.clouds-disappear-animation', 0.6, { opacity: '0',  y: "-50%" })
     .to('.menu-appear-animation', 0.7, { opacity: '0.7' }, "-=0.4");

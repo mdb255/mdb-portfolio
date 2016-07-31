@@ -30,6 +30,9 @@ h3 {
 h4 {
   font-size: 1.5em; }
 
+h5 {
+  font-size: 1.2em; }
+
 /*** Sections ***/
 .splash-header-r {
   background-image: url("../images/city-xxs.jpg");
@@ -135,6 +138,9 @@ ul.features {
   display: -webkit-flex;
   align-items: center;
   -webkit-align-items: center; }
+
+.large {
+  font-size: 115%; }
 
 .hover-swap .show-on-hover {
   display: none; }
