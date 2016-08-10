@@ -46,7 +46,8 @@ h5 {
   color: black; }
 
 .menu-appear-animation {
-  opacity: 0; }
+  opacity: 0;
+  display: none; }
 
 .cloud-logo-r {
   position: absolute;

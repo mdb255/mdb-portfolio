@@ -6,8 +6,10 @@
   "use strict";
   
   var menuTransitionTween = new TimelineMax()
+    .to('.menu-appear-animation', 0.01, { display: 'block' })
     .to('.clouds-disappear-animation', 0.6, { opacity: '0',  y: "-50%" })
-    .to('.menu-appear-animation', 0.7, { opacity: '0.7' }, "-=0.4");
+    .to('.menu-appear-animation', 0.7, { opacity: '0.7' }, "-=0.4")
+    .to('.clouds-disappear-animation', 0, { display: 'none' });
 
 
 // init controller
