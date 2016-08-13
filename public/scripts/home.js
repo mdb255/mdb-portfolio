@@ -8,7 +8,8 @@ var Home = (function() {
   return {
     "scrollToPortfolio": scrollToPortfolio,
     "scrollToAboutMe": scrollToAboutMe,
-    "scrollToContact": scrollToContact
+    "scrollToContact": scrollToContact,
+    "showResumeDialog": showResumeDialog
   };
 
   function scrollToPortfolio() {
@@ -21,5 +22,9 @@ var Home = (function() {
 
   function scrollToContact() {
     Util.scrollToElemAnimated('#contact', 1400);
+  }
+
+  function showResumeDialog() {
+    bootbox.alert("I am happy to provide a copy of my résumé upon request. <br> Please email me at mdbaldwin1@gmail.com.");
   }
 })();

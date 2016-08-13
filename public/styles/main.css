@@ -127,6 +127,9 @@ ul.features {
   opacity: 1;
   transition: opacity 0.5s; }
 
+.bootbox-body {
+  color: #000; }
+
 /*** Screenshots ***/
 .ss-wedding {
   background-image: url("../images/wedding-ss.jpg"); }
@@ -157,14 +160,16 @@ ul.features {
 .large {
   font-size: 115%; }
 
-.hover-swap .show-on-hover {
-  display: none; }
-.hover-swap:hover {
-  text-decoration: none; }
-  .hover-swap:hover .show-on-hover {
-    display: inline-block; }
-  .hover-swap:hover .show-baseline {
+.hover-swap {
+  cursor: pointer; }
+  .hover-swap .show-on-hover {
     display: none; }
+  .hover-swap:hover {
+    text-decoration: none; }
+    .hover-swap:hover .show-on-hover {
+      display: inline-block; }
+    .hover-swap:hover .show-baseline {
+      display: none; }
 
 .crossfade {
   text-align: center; }

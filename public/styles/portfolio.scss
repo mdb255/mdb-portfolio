@@ -167,6 +167,10 @@ ul.features {
   transition: opacity 0.5s;
 }
 
+.bootbox-body {
+  color: #000;
+}
+
 /*** Screenshots ***/
 
 .ss-wedding {
@@ -212,6 +216,8 @@ ul.features {
 }
 
 .hover-swap {
+  cursor: pointer;
+  
   .show-on-hover {
     display: none;
   }
